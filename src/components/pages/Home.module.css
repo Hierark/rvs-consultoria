@@ -1,0 +1,54 @@
+.primeiro{
+    color: black;
+    font-size: 2rem;
+    font-style: oblique;
+    font-weight: bold;
+}
+.segundo{
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+.terceiro{
+    font-size: 1.2rem;
+}
+.empresa{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.erro{
+    color: rgb(118, 86, 13);
+    font-size: 5rem;
+}
+.paragrafo{
+    font-size: 2rem;
+}
+
+@media(max-width: 900px){
+
+    .primeiro{
+        color: black;
+        font-size: 1rem;
+        font-style: oblique;
+        font-weight: bold;
+    }
+    .segundo{
+        padding: 1rem;
+        margin: 0.5rem;
+        font-size: 1rem;
+    }
+    .terceiro{
+        font-size: 0.8rem;
+    }
+    .empresa{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .erro{
+        color: rgb(118, 86, 13);
+        font-size: 5rem;
+    }
+    .paragrafo{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,33 @@
+.navbarra {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    padding: 0.5em;   
+}
+.titulo{
+    color: rgb(255, 255, 255);
+    margin: 0.1rem;
+    padding: -1rem;
+    font-style: italic;
+    
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item {
+    margin-right: 2em;
+}
+
+.item a {
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: rgb(223, 192, 102);
+}
